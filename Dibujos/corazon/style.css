@@ -1,0 +1,25 @@
+body{
+    background: #222;
+    display: flex;justify-content: center;
+    margin: 30%;
+}
+
+.corazon1{
+    background: #f22;
+    width: 100px;
+    height: 200px;
+    position: relative;
+    border-radius: 80px 80px 50px 100px;
+    transform: rotate(0.08turn);
+}
+
+.corazon2{
+    content: '';
+    background: #f22;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    border-radius: 80px 80px 100px 50px;
+    left: 160px;
+    transform: rotate(-0.08turn);
+}
